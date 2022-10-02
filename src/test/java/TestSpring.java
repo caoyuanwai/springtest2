@@ -97,6 +97,7 @@ public class TestSpring {
         args.add(o2);
 //        args.add(o3);
         bookService.batchDelete(args);
+        System.out.println("测试");
     }
 
 }
