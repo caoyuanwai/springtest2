@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @ComponentScan(basePackages = "com.caoyuanwai")
-@EnableTransactionManagement
+//@EnableTransactionManagement
 public class TxConfig {
     @Bean
     public DruidDataSource getDruidDataSource() {
