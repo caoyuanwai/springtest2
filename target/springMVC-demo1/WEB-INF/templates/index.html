@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http:www.thyeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<h1>首页</h1>
+<a th:href="@{/target}">访问目标页面target.html</a>
+<a th:href="@{/hello/testRequestMapping}">跳转</a>
+<a th:href="@{/hello/test}">跳转</a>
+<form th:action="@{/hello/test}" method="post">
+    <input type="submit">
+</form>
+<br>
+<a th:href="@{/hello/testGetMapping}">测试getMapping</a>
+<form th:action="@{/hello/testPostMapping}" method="post">
+    <button type="submit">测试postMapping</button>
+</form>
+<br>
+<a th:href="@{/hello/testParams(username='admin',password=123)}">测试参数</a>
+</body>
+</html>
