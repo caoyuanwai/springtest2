@@ -2,13 +2,11 @@ package com.caoyuanwai.mvc.controller;
 
 import com.caoyuanwai.mvc.bean.Employee;
 import com.caoyuanwai.mvc.dao.EmployeeDao;
-import com.sun.xml.internal.ws.api.ha.StickyFeature;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-import javax.servlet.http.HttpServletRequest;
 import java.util.Collection;
 
 @Controller
